@@ -8,3 +8,9 @@ python3 main.py --rsc_path ./rsc \
                 --params '12b' \
                 --dataset 'cirr' \
                 --mode 'train'
+
+python3 main.py --rsc_path ./rsc \
+                --llm 'dolly' \
+                --params '12b' \
+                --dataset 'cirr' \
+                --mode 'val'
